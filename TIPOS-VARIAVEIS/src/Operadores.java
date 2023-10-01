@@ -1,7 +1,16 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
-        numero = - numero;
-        System.out.print(-numero);
+        boolean condicao1=true;
+
+        boolean condicao2=false;
+
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+
     }
 }
