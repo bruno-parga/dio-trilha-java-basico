@@ -6,6 +6,10 @@ public class Usuario {
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
 
+        int numero1 = 1;
+        String numero2 = "2";
+        System.out.println("Valor: " + numero1+numero2);
+
         System.out.println("Canal Atual: " + smartTv.canal);
         smartTv.mudarCanal(44);
 
